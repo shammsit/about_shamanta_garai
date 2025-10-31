@@ -1,0 +1,79 @@
+/* General styling */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #0d1117;
+  color: #e6edf3;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #161b22;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+}
+.navbar a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: #79c0ff;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+}
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background-color: #238636;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #2ea043;
+}
+
+/* Section */
+section {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+h2 {
+  border-bottom: 2px solid #30363d;
+  padding-bottom: 0.5rem;
+}
+
+/* Skills grid */
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.skill-grid div {
+  background: #161b22;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #161b22;
+  margin-top: 3rem;
+}
